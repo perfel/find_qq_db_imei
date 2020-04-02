@@ -1,8 +1,8 @@
 # find_qq_db_imei
 推导出手机qq数据库db文件的加密IMEI值
 
-`
-λ  py find_qq_db_imei.py -h
+```
+py find_qq_db_imei.py -h
 usage: find_qq_db_imei.py [-h] [-l KEY_LENGTH] [-n LIMIT_ROWS]
                           [-i INIT_IMEI | -q USER_QQ]
                           db_file
@@ -19,7 +19,7 @@ optional arguments:
   -i INIT_IMEI   初始前几位IMEI值
   -q USER_QQ     db文件所属用户qq号,以求解前几位IMEI
 
-`
+```
 
 必输项：db_file  qq聊天db数据文件
 
