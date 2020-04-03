@@ -1,5 +1,4 @@
-`
-λ  py find_qq_db_imei.py -h
+`λ  py find_qq_db_imei.py -h
 usage: find_qq_db_imei.py [-h] [-l KEY_LENGTH] [-m MODEL] [-n LIMIT_ROWS]
                           [-i INIT_IMEI | -q USER_QQ]
                           db_file
