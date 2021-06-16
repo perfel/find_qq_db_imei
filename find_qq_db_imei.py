@@ -65,7 +65,9 @@ class FindImei:
 
     # 打印信息
     def print_info(self, tup, pos, imeis):
-        for i in range(0, 10):
+        lst = list(range(0, 10))
+        lst.append(':')
+        for i in lst:
             imeis[pos] = str(i)
             imei = ''.join(imeis)
 
@@ -126,7 +128,9 @@ class FindImei:
         keys = []
 
         print(f'[{p_pos:2d}]', p_imei)
-        for i in range(0, 10):
+        lst = list(range(0, 10))
+        lst.append(':')
+        for i in lst:
             v_imeis[p_pos] = str(i)
             imei = ''.join(v_imeis)
             dec_name = self.decode(name, imei)
