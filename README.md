@@ -58,6 +58,9 @@ optional arguments:
    `py find_qq_db_imei.py 'E:\1234567.db' -m2 -n 1 -q 9876`
 
 ------------------------ 20210616--------------------------------
-用新手机测试了下，竟然没有推出来IMEI, 最后发现IMEI竟然是02:00:00:00:00: 所以除了0-9外添加冒号的推导
+
+用新手机测试了下，竟然没有推出来IMEI, 最后发现IMEI竟然是02:00:00:00:00 所以除了0-9外添加对冒号的推导
+QQ新版本密钥存储位置 /data/data/com.tencent.mobileqq/files/kc
+小米备份文件位置 \apps\com.tencent.mobileqq\f\kc
 
    
